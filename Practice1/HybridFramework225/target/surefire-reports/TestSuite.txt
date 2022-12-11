@@ -1,0 +1,37 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 3.121 s <<< FAILURE! - in TestSuite
+com.tests.LoginTest.setup  Time elapsed: 2.921 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 108
+Current browser version is 107.0.5304.121 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-4OER0U3', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	(No symbol) [0x00EBF243]
+	(No symbol) [0x00E47FD1]
+	(No symbol) [0x00D3D04D]
+	(No symbol) [0x00D5F6B4]
+	(No symbol) [0x00D5A97C]
+	(No symbol) [0x00D582E9]
+	(No symbol) [0x00D8F056]
+	(No symbol) [0x00D8EB2A]
+	(No symbol) [0x00D88386]
+	(No symbol) [0x00D6163C]
+	(No symbol) [0x00D6269D]
+	GetHandleVerifier [0x01159A22+2655074]
+	GetHandleVerifier [0x0114CA24+2601828]
+	GetHandleVerifier [0x00F68C0A+619850]
+	GetHandleVerifier [0x00F67830+614768]
+	(No symbol) [0x00E505FC]
+	(No symbol) [0x00E55968]
+	(No symbol) [0x00E55A55]
+	(No symbol) [0x00E6051B]
+	BaseThreadInitThunk [0x76E56939+25]
+	RtlGetFullPathName_UEx [0x77278FD2+1218]
+	RtlGetFullPathName_UEx [0x77278F9D+1165]
+
+	at com.tests.LoginTest.setup(LoginTest.java:18)
+
